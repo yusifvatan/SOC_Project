@@ -1,0 +1,15 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Local/runtime files
+.DS_Store
+Thumbs.db
+*.log
